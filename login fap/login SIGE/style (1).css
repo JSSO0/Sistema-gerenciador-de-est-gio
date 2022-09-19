@@ -1,0 +1,154 @@
+@import url("https://use.typekit.net/wes7qed.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+}
+
+.sombra{
+    box-shadow: 4px 4px 4px #CADAED;
+}
+
+:root {
+    --white: #FFF;
+    --whitesmoke: #F9F9F9;
+    --light-grey: #ECECEC;
+    --grey: #C4C4C4;
+    --medium-grey: #A7A7A7;
+    --deep-grey: #343434;
+    --black: #000000;
+    --blue: #1B77F3;
+    --red: #CF3C3F;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    border-radius: 10px;
+    width: 450px;
+    height: 600px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /*função clamp serve para definir um min, medio e max de uma variavel, funciona em font, padding e margin entre outras*/
+    padding: clamp(35px, 8%, 70px);
+}
+
+/*responsividade colocar em porcentagem*/
+.login_logo {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.login_title {
+    color: var(--deep-grey);
+    font-size: 19px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login_label {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--light-grey);
+    /*como deixar uma bordar ocupando espaço mas transparente usar a funçaõ rgba(0,0,0,1)*/
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 10px;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey)
+}
+
+.login_label span {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #032A4A;
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+/*pseudo classe, quando o input estiver focado ou selecionado ele mudará de acordo com a classe abaixo*/
+.input:focus {
+    background-color: var(--whitesmoke);
+    border: 2px solid #2569C1;
+}
+
+.login_label .span-active {
+    font-size: 8px;
+    margin: 8px 10px;
+}
+
+.login__button {
+    width: 100%;
+    height: 43px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2569C1;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 60px;
+    font-size: 15px;
+}
+
+
+.login__button:disabled {
+    cursor: auto;
+    background-color: white;
+    border: 2px solid var(--light-grey);
+}
+
+.wrapper h3 {
+    font-size: 00.8em;
+    text-decoration: none;
+    color: #032A4A;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.wrapper a {
+    position: absolute;
+    font-size: 00.8em;
+    text-decoration: none;
+    color: #032A4A;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-bottom: 1%;
+    margin-left: 18%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper button {
+    font-weight: 700;
+    font-size: 20px;
+    /*color: #FDFDFD;*/
+}

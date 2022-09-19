@@ -1,0 +1,145 @@
+@import url("https://use.typekit.net/wes7qed.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+}
+
+.sombra{
+    box-shadow: 4px 4px 4px #CADAED;
+}
+
+
+:root {
+    --white: #FFF;
+    --whitesmoke: #F9F9F9;
+    --light-grey: #ECECEC;
+    --grey: #C4C4C4;
+    --medium-grey: #A7A7A7;
+    --deep-grey: #343434;
+    --black: #000000;
+    --blue: #1B77F3;
+    --red: #CF3C3F;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    border-radius: 10px;
+    width: 450px;
+    height: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /*função clamp serve para definir um min, medio e max de uma variavel, funciona em font, padding e margin entre outras*/
+    padding: clamp(35px, 8%, 70px);
+}
+
+/*responsividade colocar em porcentagem*/
+.login_logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login_title {
+    color: #385983;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.card_al a{
+    text-decoration: none;
+    color: #385983;
+}
+
+.card_orient a {
+    text-decoration: none;
+    color: #385983;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    outline: none;
+}
+
+.card_al{
+    width: 100%;
+    height: 146px;
+    border-width: 3px 3px 3px 3px; 
+    border-style:outset;
+    border-color: #385983/*linear-gradient(rgba(3, 42, 74, 1), rgba(114, 106, 197, 1) )*/;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 2%;
+}
+
+
+.card_orient{
+    width: 100%;
+    height: 146px;
+    border-width: 3px 3px 3px 3px; 
+    border-style:outset;
+    border-color: #385983;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 2%;
+    margin-left: 30%;
+    
+}
+
+.wrapper h3 {
+    font-size: 00.8em;
+    text-decoration: none;
+    color: #032A4A;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+    .card{
+        flex: 1 1 auto;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .card_orient{
+        margin-top: 6%;
+        margin-left: 0%;
+    }
+
+    .login_title {
+        color: #385983;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

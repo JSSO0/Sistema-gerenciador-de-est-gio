@@ -1,0 +1,132 @@
+@import url("https://use.typekit.net/wes7qed.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+}
+
+
+:root {
+    --azul-fap: #385983;
+    --destaque: #2569C1;
+    --azul-escuro: #032A4A;
+    --fundo: #F7F7F7;
+}
+
+.ciclos {
+    background-color: #385983;
+    border: 1px solid #385983;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    display: inline-flex;
+    padding: 2%;
+}
+
+.titulo span {
+    padding: 2%;
+
+}
+
+.tabela {
+    flex-wrap: nowrap;
+    display: flex;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tabela ul {
+    margin-left: 12%;
+}
+/*
+.tabela2 {
+}*/
+
+.tabela ul li {
+    list-style: none;
+    padding: 3%;
+    border-bottom: #032A4A 2px solid;
+}
+
+.card {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /*   justify-content: center;*/
+}
+
+.card_ciclos {
+    color: #385983;
+    padding: 5%;
+}
+
+
+
+.botoes {
+    justify-content: space-between;
+    display: flex;
+}
+
+.button {
+    display: flex;
+    width: 90px;
+    height: 30px;
+    padding: 8px;
+    background-color: #2569C1;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #F7F7F7;
+    text-align: center;
+}
+
+.butto {
+    width: 90px;
+    height: 30px;
+    padding: 8px;
+    display: flex;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #2569C1;
+}
+
+
+
+
+/*
+@media screen and (max-width: 600px){
+    .card{
+        flex: 1 1 auto;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .card_orient{
+        margin-top: 6%;
+        margin-left: 0%;
+    }
+
+    .login_title {
+        color: #385983;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}*/

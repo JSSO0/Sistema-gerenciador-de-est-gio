@@ -1,0 +1,181 @@
+
+
+@media (max-width: 999px) {
+    .body{
+        text-align: justify;
+    }
+
+    .topbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #menu.navegation{
+        animation: anim 0.3s;
+    }
+
+    @keyframes anim { 
+        from{
+            height: 0;
+            display: none;
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }   
+
+    .navegation{
+        width: 100vw;
+        height: 60px;
+        position:absolute;
+        top: 100%;
+        background-image: linear-gradient(to bottom, #5252ac, transparent);
+        display: none;
+    }
+
+
+    .navegation nav{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bars{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .bars i{
+        padding-right: 30px;
+    }
+
+    .mb{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itens{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: end;
+        padding-bottom: 8px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .infoview{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .view{
+        margin-top: 20px;
+    }
+
+    .view img{
+        width: 100%;
+    }
+
+    .info{
+        justify-content: none;
+        width: 100%;
+    }
+
+    .text{
+        padding-top: 0px;
+        width: 100%;
+    }
+
+    .st{
+        text-align: justify;
+    }
+
+    .padding{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 12px;
+        text-align: justify;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+
+    .about{
+        flex-direction: column;
+    }
+    
+    .alig{
+        text-align: center;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .proj_box{
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .pageproj{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box{
+        margin-top: 25px;
+    }
+
+    .box_c{
+        padding-top: 25px;
+    }
+
+    .forms_c{
+        height: 60%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .forms_b{
+        width: 100vw;
+    }
+
+    .line2{
+        width: 45%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+    .menu{
+        width: 80%;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 300px){
+    .h1{
+        font-size: 36px;
+    }
+}

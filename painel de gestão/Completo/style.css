@@ -1,0 +1,466 @@
+@import url("https://use.typekit.net/wes7qed.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+
+}
+
+
+:root {
+    --azul-fap: #385983;
+    --destaque: #2569C1;
+    --azul-escuro: #032A4A;
+    --fundo: #F7F7F7;
+}
+
+/*
+.todo {
+    background-image: linear-gradient(#032A4A, #726AC5);
+    width: 800px;
+    height: 100%;
+}*/
+
+/*CICLOS*/
+
+.ciclos {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.ciclos a {
+    display: inline-block;
+    position: relative;
+    background-color: #385983;
+}
+
+.num {
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 2%;
+    /* padding: 1%;*/
+    text-align: center;
+    /* border-right: 2px solid #032A4A;
+    border-left: 2px solid #032A4A;*/
+}
+
+.num a {
+    border-bottom: 1px solid #032A4A;
+}
+
+.num ul li {
+    border-bottom: 1px solid #032A4A;
+    list-style: none;
+   padding: 2%;
+}
+
+.name {
+    float: right;
+    margin-top: 2%;
+    /*   padding: 1%;*/
+    text-align: center;
+    /* border-right: 2px solid #032A4A;*/
+    padding-bottom: 2%;
+}
+
+.name a {
+    border-bottom: 1px solid #032A4A;
+}
+
+.name ul li {
+    list-style: none;
+    border-bottom: 1px solid #032A4A;
+    padding: 2.4%;
+}
+
+.curso {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 2%;
+    /*padding: 1%;*/
+    text-align: center;
+    /*  border-right: 2px solid #032A4A;*/
+    padding-bottom: 2%;
+}
+
+.curso a {
+    border-bottom: 1px solid #032A4A;
+    border-width: 100%;
+}
+
+.curso ul li {
+    list-style: none;
+    border-bottom: 1px solid #032A4A;
+    padding: 2%;
+}
+
+
+.card {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    width: 200px;
+    height: 100%;
+}
+
+.card_ciclos {
+   /* background-color: #385983;*/
+   /* border: 1px solid #385983;*/
+    color: #032A4A;
+  /*  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
+}
+
+.card_ciclos h3 {
+    padding: 1%;
+}
+
+.botoes {
+    justify-content: space-between;
+    display: flex;
+}
+
+.button {
+    display: flex;
+    width: 90px;
+    height: 30px;
+    padding: 8px;
+    background-color: #2569C1;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #F7F7F7;
+    text-align: center;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.butto {
+    width: 90px;
+    height: 30px;
+    padding: 8px;
+    display: flex;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #2569C1;
+}
+
+/*CICLOS*/
+
+/*GESTÃO DE DOCUMENTOS*/
+
+.ciclos1 {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.ciclos1 a {
+    display: inline-block;
+    position: relative;
+}
+
+.num1 {
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    border-right: 2px solid #032A4A;
+    border-left: 2px solid #032A4A;
+    /*   margin-left: auto;
+    margin-right: auto;*/
+}
+
+.num1 a {
+    border-bottom: 1px solid #032A4A;
+}
+
+.num1 ul li {
+    border-bottom: 1px solid #032A4A;
+    list-style: none;
+}
+
+.name1 {
+    float: right;
+    padding: 1%;
+    text-align: center;
+    border-right: 2px solid #032A4A;
+    /* margin-left: auto;
+    margin-right: auto;*/
+}
+
+.name1 a {
+    border-bottom: 1px solid #032A4A;
+}
+
+.name1 ul li {
+    list-style: none;
+    border-bottom: 1px solid #032A4A;
+}
+
+.curso1 {
+    display: inline-block;
+    /*  float: right;*/
+    padding: 1%;
+    text-align: center;
+    border-right: 2px solid #032A4A;
+    /*   margin-left: auto;
+    margin-right: auto;*/
+}
+
+.curso1 a {
+    border-bottom: 1px solid #032A4A;
+}
+
+.curso1 ul li {
+    list-style: none;
+    border-bottom: 1px solid #032A4A;
+}
+
+
+.card1 {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    width: 200px;
+    height: 100%;
+}
+
+.card_ciclos1 {
+    background-color: #385983;
+    border: 1px solid #385983;
+    color: #F7F7F7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card_ciclos1 h3 {
+    padding: 1%;
+    font-size: 18px;
+}
+
+
+.botoe1 {
+    justify-content: flex-end;
+    display: flex;
+    text-align: center;
+}
+
+.button1 {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    background-color: #2569C1;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    color: #F7F7F7;
+    text-align: center;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+/*GESTÃO DE DOCUMENTOS*/
+
+/*RELATÓRIOS*/
+.ciclos2 {
+    background-color: #F7F7F7;
+    display: flex;
+    /*  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;*/
+    justify-content: center;
+}
+
+.ciclos2 a {
+    display: inline-block;
+    position: relative;
+}
+
+.num2 {
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    border-right: 2px solid #032A4A;
+    border-left: 2px solid #032A4A;
+    /*   margin-left: auto;
+    margin-right: auto;*/
+}
+
+.num2 a {
+    border-bottom: 1px solid #032A4A;
+}
+
+.num2 ul li {
+    border-bottom: 1px solid #032A4A;
+    list-style: none;
+}
+
+.ciclos2 {
+    background-color: #F7F7F7;
+    display: flex;
+    /*  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;*/
+    justify-content: center;
+}
+
+.ciclos2 a {
+    display: inline-block;
+    position: relative;
+}
+
+.num2 {
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    border-right: 2px solid #032A4A;
+    border-left: 2px solid #032A4A;
+    /*   margin-left:*/
+}
+
+.name2 {
+    float: right;
+    padding: 1%;
+    text-align: center;
+    border-right: 2px solid #032A4A;
+    /* margin-left: auto;
+    margin-right: auto;*/
+}
+
+.name2 a {
+    border-bottom: 1px solid #032A4A;
+}
+
+.name2 ul li {
+    list-style: none;
+    border-bottom: 1px solid #032A4A;
+}
+
+.curso2 {
+    display: inline-block;
+    /*  float: right;*/
+    padding: 1%;
+    text-align: center;
+    border-right: 2px solid #032A4A;
+    /*   margin-left: auto;
+    margin-right: auto;*/
+}
+
+.curso2 a {
+    border-bottom: 1px solid #032A4A;
+}
+
+.curso2 ul li {
+    list-style: none;
+    border-bottom: 1px solid #032A4A;
+}
+
+
+.card2 {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    width: 200px;
+    height: 100%;
+}
+
+.card_ciclos2 {
+    background-color: #385983;
+    border: 1px solid #385983;
+    color: #F7F7F7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card_ciclos2 h3 {
+    padding: 1%;
+}
+
+
+.botoe2 {
+    justify-content: flex-end;
+    display: flex;
+    text-align: center;
+}
+
+.button2 {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    background-color: #2569C1;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    color: #F7F7F7;
+    text-align: center;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+/*RELATÓRIO*/
+
+
+
+/*alinhamento*/
+.card00 {
+    padding-top: 3%;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.card01 {
+    margin-right: 1%;
+}
+
+/*
+.card02 {
+   
+}*/
+
+.card03 {
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .card00 {
+        flex: 1 1 auto;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        /* margin-top: 3%;*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card03 {
+        /*  margin-top: 6%;*/
+        margin-left: 0%;
+        /* margin-left: auto;
+      margin-right: auto;*/
+    }
+
+    /* .login_title {
+        color: #385983;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-bottom: 10px;
+        text-align: center;
+    }*/
+}

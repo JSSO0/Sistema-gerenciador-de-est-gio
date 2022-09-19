@@ -1,0 +1,203 @@
+@import url("https://use.typekit.net/wes7qed.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+}
+
+:root {
+    --white: #FFF;
+    --whitesmoke: #F9F9F9;
+    --light-grey: #ECECEC;
+    --grey: #C4C4C4;
+    --medium-grey: #A7A7A7;
+    --deep-grey: #343434;
+    --black: #000000;
+    --blue: #1B77F3;
+    --red: #CF3C3F;
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    border-radius: 10px;
+    width: 450px;
+    height: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /*função clamp serve para definir um min, medio e max de uma variavel, funciona em font, padding e margin entre outras*/
+    padding: clamp(35px, 8%, 70px);
+}
+
+/*responsividade colocar em porcentagem*/
+.login_logo {
+    width: 100%;
+ /*   margin-bottom: 10px;*/
+    margin-top: 150px;
+}
+
+.login_title {
+    color: #032A4A;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login_subtitle {
+    color: #032A4A;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-check-label {
+    width: 100%;
+    margin-bottom: 25x;
+    font-size: 13px;
+    font-weight: 700;
+    color: #032A4A;
+}
+
+.form-check{
+    padding: 3.5%;
+    margin-bottom: 3.5%;
+}
+
+.form-check-input {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form-check-label span {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 700;
+    color: #032A4A;
+}
+
+.sombra{
+    box-shadow: 4px 4px 4px #CADAED;
+    border-radius: 10px;
+}
+
+.login__button {
+    width: 100%;
+    height: 43px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2569C1;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #F7F7F7;
+}
+.login__butto {
+    width: 100%;
+    height: 43px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #2569C1;
+}
+
+
+.wrapper a {
+    font-size: 00.8em;
+    text-decoration: none;
+    color: #032A4A;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.wrapper {
+    /*margin-bottom: 10px;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper button {
+    font-weight: 700;
+    font-size: 20px;
+    /*color: #FDFDFD;*/
+}
+
+/*input email*/
+
+
+.input {
+    width: 100%;
+    background-color: var(--light-grey);
+    /*como deixar uma bordar ocupando espaço mas transparente usar a funçaõ rgba(0,0,0,1)*/
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 10px;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey)
+}
+.login_label .span-active {
+    font-size: 8px;
+    margin: 8px 10px;
+}
+.login_label {
+    width: 100%;
+    display: block;
+    padding: 1%;
+}
+.login_label span {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #032A4A;
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+/*css dos inputs, verificar posteriormente oq n precisa*/
+
+.outro-motivo{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cpf-email{
+    width: 100%;
+}
+
+.email-senha{
+    width: 100%;
+}
+
+.recu1 .recu2 .recu3{
+    display: none;
+}
