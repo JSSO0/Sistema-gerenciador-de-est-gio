@@ -89,7 +89,27 @@ td {
     padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #385983;
+    background-color: #A30303;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #FDFDFD;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    box-shadow: 0px 2px 0px 0px rgba(3, 42, 74, 15%);
+    /*  margin-bottom: 0%;*/
+}
+
+.butto {
+    width: auto;
+    height: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #032A4A;
     border-radius: 10px;
     border: none;
     cursor: pointer;
@@ -113,10 +133,61 @@ td {
     box-shadow: 0px 2px 0px 0px rgba(3, 42, 74, 15%);
 }
 
-.prof{
+.prof {
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
+.busca {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: #032A4A;
+    margin-left: auto;
+    margin-right: auto;
+ /*   padding: 0.5%;*/
+    border-radius: 10px;
+}
 
-@media screen and (max-width: 600px) {}
+
+.search{
+    border: none;
+   /* padding: 1%;*/
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+   background-color: #032A4A;
+}
+
+.btn{
+    width: auto;
+    height: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #032A4A;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #FDFDFD;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .table,
+    tr,
+    th {
+        flex: 1 1 auto;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        margin-top: 3%;
+    }
+}
