@@ -22,8 +22,8 @@
 
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,12 +42,7 @@ body {
     padding: clamp(35px, 8%, 70px);
 }
 
-/*responsividade colocar em porcentagem*/
-.login_logo {
-    width: 100%;
- /*   margin-bottom: 10px;*/
-    margin-top: 150px;
-}
+
 
 .login_title {
     color: #032A4A;
@@ -63,34 +58,29 @@ body {
     text-align: center;
 }
 
-.form-check-label {
-    width: 100%;
-    margin-bottom: 25x;
-    font-size: 13px;
-    font-weight: 700;
+.selec {
+    display: flex;
+    float: right;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+.selecao {
+    background-color: #F7F7F7;
     color: #032A4A;
+    padding: 2%;
+    border-radius: 5px;
 }
 
-.form-check{
-    padding: 3.5%;
-    margin-bottom: 3.5%;
+.selecao::placeholder {
+    border: none;
 }
 
-.form-check-input {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.form-check-label span {
-    position: absolute;
-    font-size: 13px;
-    font-weight: 700;
-    color: #032A4A;
-}
-
-.sombra{
+.sombra {
     box-shadow: 4px 4px 4px #CADAED;
     border-radius: 10px;
+    width: auto;
+    height: auto;
 }
 
 .login__button {
@@ -108,6 +98,7 @@ body {
     font-size: 15px;
     color: #F7F7F7;
 }
+
 .login__butto {
     width: 100%;
     height: 43px;
@@ -134,6 +125,7 @@ body {
 }
 
 .wrapper {
+    margin-top: 5%;
     /*margin-bottom: 10px;*/
     width: 100%;
     display: flex;
@@ -163,15 +155,18 @@ body {
     font-weight: 600;
     color: var(--deep-grey)
 }
+
 .login_label .span-active {
     font-size: 8px;
     margin: 8px 10px;
 }
+
 .login_label {
     width: 100%;
     display: block;
     padding: 1%;
 }
+
 .login_label span {
     position: absolute;
     font-size: 12px;
@@ -185,19 +180,19 @@ body {
 
 /*css dos inputs, verificar posteriormente oq n precisa*/
 
-.outro-motivo{
+.outro-motivo {
     width: 100%;
     margin-bottom: 10px;
 }
 
-.cpf-email{
+.cpf-email {
     width: 100%;
 }
 
-.email-senha{
+.email-senha {
     width: 100%;
 }
 
-.recu1 .recu2 .recu3{
+.recu1 .recu2 .recu3 {
     display: none;
 }

@@ -14,7 +14,7 @@
 
 <body>
     <div class="sombra">
-        <main>
+        <form>
             <section class="login">
                 <img src="IMAGENS/logo 2.svg" class="login_logo">
 
@@ -24,54 +24,29 @@
 
 
                 <div class="email-senha">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="radio" id="radio" onClick="radio">
-                            Esqueci minha senha
-                        </label>
+                    <div class="selec">
+                        <select class="selecao">
+                            <option value="forms">Esqueci Minha senha</option>
+                            <option value="forms">Esqueci meu e-mail de acesso</option>
+                            <option value="forms">Outro Motivo</option>
+                        </select>
                     </div>
                     <div class="recu1">
                         <label class="login_label">
-                            <span>Digite seu e-mail</span>
+                            <span>Digite seu nome</span>
                             <input type="text" name="username" class="input">
                         </label>
-                    </div>
-                </div>
-
-
-                <div class="cpf-email">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="radio" id="radio">
-                            Esqueci meu e-mail de acesso
-                        </label>
-                    </div>
-                    <div class="recu2">
                         <label class="login_label">
-                            <span>CPF</span>
+                            <span>Matrícula</span>
                             <input type="text" name="username" class="input">
                         </label>
                         <label class="login_label">
                             <span>Número</span>
                             <input type="text" name="username" class="input">
                         </label>
-                    </div>
-                </div>
 
-                <div class="outro-motivo">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="radio" id="radio">
-                            Outro motivo
-                        </label>
-                    </div>
-                    <div class="recu3">
                         <label class="login_label">
                             <span>informe o ocorrido para entrarmos em contato</span>
-                            <input type="text" name="username" class="input">
-                        </label>
-                        <label class="login_label">
-                            <span>E-mail</span>
                             <input type="text" name="username" class="input">
                         </label>
                     </div>
@@ -90,7 +65,7 @@
             </section>
 
 
-        </main>
+        </form>
     </div>
 
     <script src="js.js"></script>
